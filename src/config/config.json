@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "test",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false,
+    "define":{
+      "freezeTableName": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "test",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "production",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
